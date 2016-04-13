@@ -2,9 +2,9 @@
   "name": "function-x-main-site",
   "version": "1.0.0",
   "description": "the main-site of function-x.org",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,12 @@
   },
   "homepage": "https://github.com/function-x/main-site#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
     "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.0.1",
+    "serve-favicon": "^2.3.0"
   }
 }

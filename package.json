@@ -1,0 +1,27 @@
+{
+  "name": "function-x-main-site",
+  "version": "1.0.0",
+  "description": "the main-site of function-x.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/function-x/main-site.git"
+  },
+  "keywords": [
+    "function-x",
+    "main"
+  ],
+  "author": "Izumo Riki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/function-x/main-site/issues"
+  },
+  "homepage": "https://github.com/function-x/main-site#readme",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}

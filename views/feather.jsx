@@ -20,7 +20,7 @@ module.exports = React.createClass({
             <div style={globalStyle}>
                 <p
                     style={{
-                        fontFamily: "'bradley hand itc','lucida calligraphy'",
+                        fontFamily: "'bradley hand itc', 'lucida calligraphy', 'Comic Sans MS', serif",
                         fontSize: '50px'
                     }}
                     >

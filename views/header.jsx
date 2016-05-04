@@ -15,7 +15,7 @@ module.exports = React.createClass({
         };
         return (
             <div style={globalStyle}>
-                <a href="http://function-x.com" style={titleStyle}>Function-X</a>
+                <a href="http://function-x.org" style={titleStyle}>Function-X</a>
             </div>
         );
     }

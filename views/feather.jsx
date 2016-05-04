@@ -26,7 +26,7 @@ module.exports = React.createClass({
                     >
                     f(x)
                 </p>
-                <p>我们也不知道Function-X究竟是做什么的（调皮）</p>
+                <p>我们也不知道Function-X究竟是做什么的（滑稽）</p>
                 <a href="https://github.com/function-x" style={linkStyle}>View GitHub</a>
             </div>
         );

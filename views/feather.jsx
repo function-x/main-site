@@ -11,12 +11,15 @@ module.exports = React.createClass({
         }
         var linkStyle = {
             textDecoration : 'none',
-            color: 'inherit'
+            color: 'inherit',
+            border: 'solid 1px #FFFFFF',
+            padding: '10px',
+            borderRadius: '5px'
         }
         return (
             <div style={globalStyle}>
                 <p>我们也不知道Function-X究竟是做什么的（调皮）</p>
-                <a href="https://github.com/function-x" style={linkStyle}>&gt; View GitHub</a>
+                <a href="https://github.com/function-x" style={linkStyle}>View GitHub</a>
             </div>
         );
     }

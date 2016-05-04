@@ -1,6 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var Header = require('./header.jsx');
+var Feather = require('./feather.jsx');
 var Footer = require('./footer.jsx');
 
 var Index = React.createClass({
@@ -10,7 +12,9 @@ var Index = React.createClass({
         };
         return (
             <div style={globalStyle}>
-                <Footer />
+                <Header></Header>
+                <Feather></Feather>
+                <Footer></Footer>
             </div>
         );
     }

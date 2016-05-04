@@ -10,10 +10,14 @@ module.exports = React.createClass({
             borderTop: 'solid 1px #CCCCCC',
             lineHeight: '14px'
         };
+        var linkStyle = {
+            textDecoration: 'none',
+            color: 'inherit'
+        }
         return (
             <div style={globalStyle}>
                 <p>Copyright &copy; 2016 Function-X.org 版权所有</p>                
-                <p>ICP证：<a href="http://www.miitbeian.gov.cn/">浙ICP备16015171号</a></p>
+                <p>ICP证：<a href="http://www.miitbeian.gov.cn/" style={linkStyle}>浙ICP备16015171号</a></p>
             </div>
         );
     }

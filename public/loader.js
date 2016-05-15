@@ -13,7 +13,7 @@
         container.style.width = '100%';
         container.style.textAlign = 'center';
         container.style.margin = '0 auto';
-        container.style.transition = 'opacity 1s ease';
+        container.style.transition = 'opacity 0.3s ease';
 
         {
 
@@ -37,6 +37,7 @@
                     bar.style.backgroundColor = 'rgb(0, 188, 212)';
                     bar.style.width = '0%';
                     bar.style.height = '4px';
+                    bar.style.transition = 'width 0.1s ease';
 
                     barBackGround.appendChild(bar);
                 }
@@ -66,7 +67,7 @@
         setTimeout(function () {
             document.body.removeChild(container);
             eval(event.target.response);
-        }, 1000);
+        }, 300);
     }
     request.send();
 })();

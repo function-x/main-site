@@ -16,8 +16,8 @@ module.exports = React.createClass({
         }
         return (
             <div style={globalStyle}>
-                <p>Copyright &copy; 2016 Function-X.org 版权所有</p>                
-                <p>ICP证：<a href="http://www.miitbeian.gov.cn/" style={linkStyle}>浙ICP备16015171号</a></p>
+                <p>Copyright &copy; 2016 Function-X.org, All rights reserved.</p>                
+                <p>ICP: <a href="http://www.miitbeian.gov.cn/" style={linkStyle}>Zhejiang 16015171</a></p>
             </div>
         );
     }
